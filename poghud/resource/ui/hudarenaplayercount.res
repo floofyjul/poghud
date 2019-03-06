@@ -4,41 +4,48 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-30"
-		"ypos"			"0"
+		"xpos"			"c-40"
+		"ypos"			"23"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
-	
-		"background"
+		
+		"Background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"50"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"bgcolor_override"	"Blue"
+			
+			"background2"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"background2"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"bgcolor_override"	"DarkBlue"
+				"proportionaltoparent"	"1"
+			}
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"7"
+			"xpos"			"-14"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -46,17 +53,21 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%blue_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"textAlignment"	"east"
+			"fgcolor"		"White"
+			
+			"pin_to_sibling"		"background"
+			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}	
 		"countshadow"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -64,18 +75,22 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%blue_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"textAlignment"	"east"
+			"fgcolor"		"ShadowBlack"
+			
+			"pin_to_sibling"		"count"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"10"
+			"xpos"			"6"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
@@ -85,46 +100,53 @@
 			"scaleImage"	"1"
 		}
 	}
-
+	
 	"redteam"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-30"
-		"ypos"			"21"
+		"xpos"			"c0"
+		"ypos"			"23"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"30"
 		"visible"		"1"
-	
+		
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
-			"xpos"			"5"
-			"ypos"			"7"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"50"
 			"tall"			"23"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"bgcolor_override"	"Red"
+			
+			"background2"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"background2"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"bgcolor_override"	"DarkRed"
+				"proportionaltoparent"	"1"
+			}
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"7"
+			"xpos"			"-6"
+			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -132,17 +154,21 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%red_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
-		}	
+			"textAlignment"	"west"
+			"fgcolor"		"White"
+			
+			"pin_to_sibling"		"background"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
+		}
 		"countshadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countshadow"
-			"xpos"			"24"
-			"ypos"			"8"
+			"xpos"			"-1"
+			"ypos"			"-1"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"25"
@@ -150,18 +176,22 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"CodeBold22"
 			"labelText"		"%red_alive%"
-			"textAlignment"	"center"
-			"fgcolor"		"Black"
+			"textAlignment"	"west"
+			"fgcolor"		"ShadowBlack"
+			
+			"pin_to_sibling"		"count"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
-	
+		
 		"playerimage"
 		{
-			"ControlName"	"ImagePanel"		
+			"ControlName"	"ImagePanel"
 			"fieldName"		"playerimage"
-			"xpos"			"12"
-			"ypos"			"10"
+			"xpos"			"26"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
@@ -169,6 +199,6 @@
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
-		}			
+		}
 	}
 }

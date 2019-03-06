@@ -24,17 +24,17 @@
 		"zpos"					"0"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"proportionaltoparent"	"1"
-		"border"				"GrayDialogBorder"
+		"border"				"WhiteBorder"
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"#TF_StrangeCount_TransferTitle"
 			"textAlignment"	"center"
 			"xpos"			"95"
@@ -78,8 +78,8 @@
 			"wide"			"84"
 			"tall"			"64"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"model_xpos"	"2"
@@ -95,6 +95,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}	
 		"SubjectBG"
@@ -126,8 +127,8 @@
 			"wide"			"84"
 			"tall"			"64"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"model_xpos"	"2"
@@ -142,6 +143,7 @@
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
+				"inventory_image_type"	"1"
 			}
 		}	
 	
@@ -149,7 +151,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ConfirmLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeLC14"
 			"labelText"		"#TF_StrangeCount_TransferExplain"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -162,7 +164,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "White"
 		}
 	
 		"CancelButton"

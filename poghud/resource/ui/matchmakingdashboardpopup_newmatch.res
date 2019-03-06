@@ -49,7 +49,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"PanelBorder"
+			"bgcolor_override"	"DarkGrey"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -65,7 +66,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 				"textAlignment"	"center"
 				"labelText"		"%match_type%"
 				"proportionaltoparent"	"1"
@@ -73,7 +74,7 @@
 
 				"fonts"
 				{
-					"0"		"HudFontSmallestBold"
+					"0"		"CodeBold12"
 					"1"		"StorePromotionsTitle"
 					"2"		"FontStorePrice"
 				}
@@ -90,8 +91,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallest"
-				"fgcolor_override"	"TanLight"
+				"font"			"CodeLC12"
+				"fgcolor_override"	"White"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
@@ -113,7 +114,7 @@
 
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"CodeBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -150,7 +151,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"CodeBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -160,9 +161,6 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
-
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -183,7 +181,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
+				"font"			"CodeBold12"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -193,9 +191,6 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
-
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -212,8 +207,8 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallest"
-				"fgcolor_override"	"TanLight"
+				"font"			"CodeBold12"
+				"fgcolor_override"	"White"
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"

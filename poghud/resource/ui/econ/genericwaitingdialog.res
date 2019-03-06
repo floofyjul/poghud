@@ -9,17 +9,17 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"105"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"Black"
+		"paintbackgroundtype"	"1"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"WhiteBorder"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold18"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"			"0"
@@ -33,15 +33,15 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" 	"255 255 255 255"
+		"bgcolor_override" 	"Transparent"
 	}
 
 	"EllipsesLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"xpos"			"0"
 		"ypos"			"42"
 		"zpos"			"0"
@@ -53,15 +53,15 @@
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" "255 255 255 255"
+		"bgcolor_override" "Transparent"
 	}
 
 	"DurationLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"xpos"			"0"
 		"ypos"			"52"
 		"zpos"			"0"
@@ -73,8 +73,8 @@
 		"enabled"		"1"
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override" "0 0 0 0"
+		"fgcolor_override" "255 255 255 255"
+		"bgcolor_override" "Transparent"
 	}
 	
 	"CloseButton"
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

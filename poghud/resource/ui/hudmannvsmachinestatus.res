@@ -9,7 +9,6 @@
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
-		"ypos_minmode"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -39,21 +38,19 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		"pin_to_sibling"               "WaveStatusPanel"
-		"pin_corner_to_sibling"        "4"          
-		"pin_to_sibling_corner"        "6"  
+		"pin_to_sibling"			"WaveStatusPanel"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
 	}
-
+	
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
+		"xpos"				"90"
+		"ypos"				"r35"
 		"wide"				"100"
-		"tall"				"100"
-		"xpos_minmode"		"65"
-		"ypos_minmode"		"r88"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
@@ -62,42 +59,40 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"33"
-		"ypos"				"r15"
+		"xpos"				"90"
+		"ypos"				"r20"
 		"wide"				"100"
-		"tall"				"100"
-		"xpos_minmode"		"145"
-		"ypos_minmode"		"r12"
+		"tall"				"16"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-
+	
 	"WarningSwoop"
 	{
-		"ControlName"	"CWarningSwoop"
-		"fieldName"		"WarningSwoop"
-		"xpos"			"c-12"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"24"
-		"tall"			"220"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../sprites/obj_icons/warning_highlight"
-		"scaleImage"	"1"
-		"time"			"0.3"		
+		"ControlName"		"CWarningSwoop"
+		"fieldName"			"WarningSwoop"
+		"xpos"				"c-12"
+		"ypos"				"0"
+		"zpos"				"10"
+		"wide"				"24"
+		"tall"				"220"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../sprites/obj_icons/warning_highlight"
+		"scaleImage"		"1"
+		"time"				"0.3"		
 	}
 	
 	"UpgradeLevelContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"UpgradeLevelContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"0"
-					
+		"ControlName"		"EditablePanel"
+		"fieldName"			"UpgradeLevelContainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"640"
+		"tall"				"480"
+		"visible"			"0"
+		
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
@@ -184,7 +179,6 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -193,55 +187,50 @@
 	
 	"VictoryPanelContainer"
 	{
-		"ControlName"	"CMvMVictoryPanelContainer"
-		"fieldName"		"VictoryPanelContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"CMvMVictoryPanelContainer"
+		"fieldName"			"VictoryPanelContainer"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 	}
 	
 	"WaveLossPanel"
 	{
-		"ControlName"	"CMvMWaveLossPanel"
-		"fieldName"		"WaveLossPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"CMvMWaveLossPanel"
+		"fieldName"			"WaveLossPanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 	}
 	
 	"ServerChangeMessage"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ServerChangeMessage"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"0"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ServerChangeMessage"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
 		
 		"Background"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
-			"tall"			"20"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"border"		"DarkRedTeamBorder"
+			"bgcolor_override"	"Red"
 		}
 	
 		"ServerChangeLabel"
@@ -252,13 +241,12 @@
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"390"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"tanlight"		
+			"fgcolor"		"White"		
 		}
 	}
-	
 }

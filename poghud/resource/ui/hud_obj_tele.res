@@ -19,16 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon_Teleport"
@@ -43,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -60,7 +54,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
+			"font"			"LightGravity10"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -99,7 +93,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_2"
@@ -115,7 +109,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_3"
@@ -131,10 +125,9 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -161,7 +154,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -177,7 +170,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"255 0 0 255"
 		}
 
 		"Health"
@@ -212,7 +205,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"LightGravity10"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -235,7 +228,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -293,7 +286,7 @@
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
-					"tall"			"5"				
+					"tall"			"5"
 					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
@@ -301,7 +294,7 @@
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}	
+				}
 			}
 			
 			"FullyChargedPanel"
@@ -313,7 +306,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-								
+				
 				"TimesUsedLabel"
 				{	
 					"ControlName"	"CExLabel"
@@ -333,7 +326,7 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}	
+			}
 			"UpgradeLabel"
 			{	
 				"ControlName"	"CExLabel"

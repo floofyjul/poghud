@@ -15,7 +15,7 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
-
+	
 	"PlayListDropShadow"
 	{
 		"ControlName"	"EditablePanel"
@@ -48,38 +48,19 @@
 		"bgcolor_override"	"0 0 0 255"
 	}
 
-	
 	"ToolTipHack"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipHack"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"50"
+		"zpos"			"490"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-	}
-
-	"ToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"rs1-6"
-		"ypos"			"2"
-		"zpos"			"51"
-		"wide"			"122"
-		"tall"			"15"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+		"eatmouseinput"	"0"
 	}
 
 	"ModeButton"
@@ -88,7 +69,7 @@
 		"fieldName"		"ModeButton"
 		"xpos"			"rs1-6"
 		"ypos"			"2"
-		"zpos"			"6"
+		"zpos"			"5"
 		"wide"			"122"
 		"tall"			"15"
 		"visible"		"1"
@@ -96,7 +77,7 @@
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallestBold"
+		"font"			"LightGravity12"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -105,16 +86,16 @@
 		"proportionaltoparent" "1"
 		"actionsignallevel"	"2"
 
-		//"border_default"	"MainMenuMiniButtonDefault"
-		//"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"1"
+		"border_default"	"NoBorder"
+		"border_armed"		"MenuBorder"
+		"paintbackground"	"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override"   "White"
+		"depressedFgColor_override" "75 125 255 255"
 	}	
 
 	"MatchmakingBanPanel"
@@ -184,8 +165,8 @@
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
-		"xpos"			"rs1+1"
-		"ypos"			"19"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"125"
 		"tall"			"40"
@@ -194,9 +175,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "ShadowBlack"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"		"DescLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"DisabledIcon"
@@ -205,10 +190,10 @@
 		"fieldName"		"DisabledIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"				"49"
+		"zpos"				"50"
 		"wide"				"f0"
 		"tall"				"f0"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"actionsignallevel"	"1"
 		"command"			"comp_access_info"
@@ -218,21 +203,21 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-				
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-				
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"235 140 140 255"
+
+		"defaultFgColor_override" "TanDarker"
+		"armedFgColor_override" "NeutralWhite"
+		"depressedFgColor_override" "TanDarker"
+		"defaultBgColor_override" "Transparent"
+		"armedBgColor_override" "Transparent"
+		"depressedBgColor_override" "Transparent"
+
+		"image_drawcolor"	"TextColor"
+		"image_armedcolor"	"NeutralWhite"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"233"
+			"xpos"			"110"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"15"

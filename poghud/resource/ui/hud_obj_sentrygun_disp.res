@@ -19,16 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon_Sentry_1"
@@ -43,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -55,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -67,8 +61,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"#Building_hud_disp_sentry_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
@@ -99,15 +93,14 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-	
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
 			"xpos"			"114"
-			"ypos"			"0"
 			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
@@ -130,7 +123,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"SapperIcon"
@@ -146,7 +139,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 		
 		"Health"
@@ -176,7 +169,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -204,7 +197,7 @@
 				"xpos"			"0"
 				"ypos"			"29"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -225,7 +218,7 @@
 			"tall"			"20"
 			"visible"		"0"
 			
-			"KillIcon"	
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -240,7 +233,7 @@
 				"image"			"../hud/hud_obj_status_kill_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-						
+
 			"KillsLabel"
 			{	
 				"ControlName"	"CExLabel"
@@ -259,8 +252,8 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-					
-			"ShellIcon"	
+
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -284,7 +277,7 @@
 				"xpos"			"12"
 				"ypos"			"7"
 				"wide"			"38"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

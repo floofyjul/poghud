@@ -1,15 +1,15 @@
 "Resource/UI/ItemModelPanel.res"
-{	
+{
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
-		"text_ypos"			"15"
-		"text_forcesize" "0"
-		"text_xpos"		"15"
-		"text_wide"		"270"
+		"text_ypos"				"15"
+		"text_forcesize" 		"0"
+		"text_xpos"				"15"
+		"text_wide"				"270"
 		//"model_xpos_collection"	"77"
 		//"model_ypos_collection"	"20"
 		//"model_wide_collection"	"156"
@@ -22,7 +22,7 @@
 		"fieldName"		"LoadingSpinner"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
@@ -33,7 +33,7 @@
 		"image"			"animated/tf2_logo_hourglass"
 		"scaleImage"	"1"
 	}
-
+	
 	"MainContentsContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -43,46 +43,42 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-
+		"bgcolor_override"		"Transparent"
+		
 		"itemmodelpanel"
 		{
-			"ControlName"		"CEmbeddedItemModelPanel"
+			"ControlName"	"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
-	
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"		
+			"zpos"			"1"
 			"wide"			"140"
 			"tall"			"100"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"useparentbg"		"1"
-		
+			"useparentbg"	"1"
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-
 			"fov"			"54"
-			"start_framed"		"1"
-
+			"start_framed"	"1"
 			"disable_manipulation"	"1"
-
+			
 			"model"
 			{
 				"angles_x"		"10"
 				"angles_y"		"130"
 				"angles_z"		"0"
-				"spotlight" "1"
+				"spotlight"		"1"
 			}
 		}
-	
+		
 		"namelabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"CodeBold14"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -94,9 +90,10 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"White"
 			"centerwrap"	"1"
 		}
+		
 		"attriblabel"
 		{
 			"ControlName"	"CExLabel"
@@ -113,7 +110,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"south"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"TextColor"
 			"centerwrap"	"1"
 		}
 		
@@ -133,11 +130,11 @@
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"fgcolor"		"LightRed"
+			"bgcolor_override"		"Black"
+			"PaintBackgroundType"	"0"
 		}
-	
+		
 		"paint_icon"
 		{
 			"ControlName"	"CItemMaterialCustomizationIconPanel"
@@ -149,9 +146,8 @@
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
-
 		}
-
+		
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
@@ -168,11 +164,11 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"fgcolor"		"LightRed"
+			"bgcolor_override"		"Black"
+			"PaintBackgroundType"	"0"
 		}
-
+		
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -181,7 +177,7 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"14"
+			"wide"			"17"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -191,9 +187,9 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
-
+		
 		"matcheslabel"
 		{
 			"ControlName"	"CExLabel"
@@ -214,7 +210,7 @@
 			"bgcolor_override"		"0 40 30 255"
 			"PaintBackgroundType"	"2"
 		}
-
+		
 		"vision_restriction_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -230,6 +226,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+		
 		"is_strange_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -245,6 +242,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
+		
 		"is_unusual_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -260,7 +258,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 		}
-
+		
 		"is_loaner_icon"
 		{
 			"ControlName"	"ImagePanel"
@@ -287,13 +285,11 @@
 			"tall"			"18"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"
-		
 			"enabled"		"1"
-		
 			"model_xpos"	"1"
 			"model_ypos"	"1"
 			"model_wide"	"16"
@@ -301,19 +297,16 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"model_only"	"1"
-		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
-		
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-		
+			
 			"use_item_sounds"	"1"
 		}
 	}
-
-
 }

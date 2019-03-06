@@ -19,7 +19,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"CodeBold20"
 			"labelText"		"#TF_MvM_TourOfDuty"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -27,14 +27,14 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"DifficultyLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"DifficultyLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeBold10"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"south-west"
 			"xpos"			"189"
@@ -42,29 +42,29 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"CompleteLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmall"
-			"labelText"		"#TF_MvM_TourOfDutyProgress"
+			"font"			"CodeBold10"
+			"labelText"		"Completed"
 			"textAlignment"	"south-west"
 			"xpos"			"279"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"TourLevelLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeBold8"
 			"labelText"		"#TF_MvM_TourNumber"
 			"textAlignment"	"south-west"
 			"xpos"			"345"
@@ -72,7 +72,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"TourlistGroupBox"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold18"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -185,7 +185,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ToorLootDetailLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeLC12"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
 			"wrap"			"1"
@@ -218,7 +218,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"InventoryTitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold20"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"north-west"
 			"xpos"			"8"
@@ -232,7 +232,7 @@
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"MannUpTicketAd"
-			"xpos"			"6"
+			"xpos"			"3"
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"70"
@@ -255,17 +255,16 @@
 			}
 		}
 
-
 		"MannUpTicketCountLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MannUpTicketCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"CodeBold20"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"15"
-			"ypos"			"24"
+			"xpos"			"11"
+			"ypos"			"28"
 			"zpos"			"2"
 			"wide"			"60"
 			"tall"			"30"
@@ -276,7 +275,7 @@
 		{
 			"ControlName"	"CCyclingAdContainerPanel"
 			"fieldName"		"SquadSurplusTicketAd"
-			"xpos"			"73"
+			"xpos"			"83"
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"70"
@@ -303,12 +302,12 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCountLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"CodeBold20"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
 			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"82"
-			"ypos"			"24"
+			"xpos"			"89"
+			"ypos"			"28"
 			"zpos"			"2"
 			"wide"			"60"
 			"tall"			"30"
@@ -317,13 +316,13 @@
 
 		"SquadSurplusCheckButton"
 		{
-			"ControlName"		"CheckButton"
+			"ControlName"	"CheckButton"
 			"fieldName"		"SquadSurplusCheckButton"
-			"xpos"		"5"
-			"ypos"		"70"
-			"zpos"		"2"
-			"wide"		"25"
-			"tall"		"25"
+			"xpos"			"5"
+			"ypos"			"92"
+			"zpos"			"2"
+			"wide"			"25"
+			"tall"			"25"
 			"font"			"HudFontSmall"
 			"labelText"		""
 		}
@@ -332,15 +331,15 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SquadSurplusCheckLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"CodeLC10"
 			"labelText"		"#TF_MvM_ActivateSquadSurplus"
-			"textAlignment"	"north-west"
+			"textAlignment"	"south-west"
 			"wrap"			"1"
 			"xpos"			"33"
-			"ypos"			"70"
+			"ypos"			"80"
 			"zpos"			"0"
 			"wide"			"120"
-			"tall"			"60"
+			"tall"			"35"
 		}
 
 		"Slot0"
@@ -443,7 +442,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"MissingTicketsLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"CodeLC10"
 			"fgcolor_override"	"TanDark"
 			"labelText"		"#TF_Matchmaking_CantQueue_NoTicket"
 			"textAlignment"	"south-west"
@@ -452,7 +451,7 @@
 			"ypos"			"rs1-5"
 			"zpos"			"0"
 			"wide"			"165"
-			"tall"			"60"
+			"tall"			"35"
 			"proportionaltoparent"	"1"
 		}
 	}
@@ -563,7 +562,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"ChallengeLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"CodeBold20"
 			"labelText"		"%tour_name%"
 			"textAlignment"	"south-west"
 			"xpos"			"0"
@@ -571,22 +570,22 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"CompleteLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"CompleteLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"%complete_heading%"
 			"textAlignment"	"south-west"
-			"xpos"			"264"
+			"xpos"			"270"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"White"
 		}
 
 		"TourLevelImage"
@@ -609,7 +608,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"TourLevelLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"CodeBold18"
 			"labelText"		"%tour_level%"
 			"textAlignment"	"south"
 			"xpos"			"357"
@@ -617,7 +616,7 @@
 			"zpos"			"0"
 			"wide"			"30"
 			"tall"			"26"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"Black"
 		}
 
 		"ChallengeListGroupBox"

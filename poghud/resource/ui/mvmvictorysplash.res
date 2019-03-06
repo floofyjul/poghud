@@ -2,41 +2,27 @@
 {	
 	"SplashContainer"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"SplashContainer"
-		"xpos"			"c-150"
-		"ypos"			"c-20"
-		"wide"			"300"
-		"tall"			"300"
-		"visible"		"1"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SplashContainer"
+		"xpos"				"c-150"
+		"ypos"				"c-20"
+		"wide"				"300"
+		"tall"				"300"
+		"visible"			"1"
 		
 		"SplashBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
 			"xpos"			"25"
-			"ypos"			"0"
+			"ypos"			"16"
 			"wide"			"250"
-			"tall"			"70"
+			"tall"			"42"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/ammo_red_bg"
-		}
-		
-		"SplashLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SplashLabelShadow"
-			"font"			"HudFontGiantBold"
-			"labelText"		"#TF_MVM_Victory"
-			"textAlignment" "center"
-			"xpos"			"2"
-			"ypos"			"14"
-			"wide"			"300"
-			"tall"			"50"
-			"fgcolor"		"black"
+			"fillcolor"		"Red"
 		}
 		
 		"SplashLabel"
@@ -50,7 +36,25 @@
 			"ypos"			"12"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
+		}
+		
+		"SplashLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SplashLabelShadow"
+			"font"			"HudFontGiantBold"
+			"labelText"		"#TF_MVM_Victory"
+			"textAlignment" "center"
+			"xpos"			"-1"
+			"ypos"			"-1"
+			"wide"			"300"
+			"tall"			"50"
+			"fgcolor"		"ShadowBlack"
+		
+			"pin_to_sibling"		"SplashLabel"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 }

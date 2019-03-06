@@ -150,8 +150,8 @@
 				"wide"			"o1"
 				"tall"			"p1"
 				"visible"		"0"
-				"bgcolor_override"		"0 0 0 0"
-				"noitem_textcolor"		"117 107 94 255"
+				"bgcolor_override"		"Transparent"
+				"noitem_textcolor"		"TextColor"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				"model_center_x"	"1"
@@ -392,15 +392,15 @@
 		"tall"			"p1"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"Transparent"
 
 		"YouTradedForLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"YouTradedForLabel"
-			"font"			"HudFontSmall"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
-			"xpos"			"f0"
+			"xpos"			"cs-0.5"
 			"ypos"			"17"
 			"zpos"			"1"
 			"wide"			"f0"
@@ -426,8 +426,8 @@
 			"wide"			"o1.5"
 			"tall"			"p0.5"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"mouseinputenabled"	"0"
@@ -474,8 +474,8 @@
 			"wide"			"o1.5"
 			"tall"			"p0.5"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"bgcolor_override"		"Transparent"
+			"noitem_textcolor"		"TextColor"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"actionsignallevel"	"4"
@@ -573,8 +573,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"CloseButton"
-			"xpos"			"c92"
-			"ypos"			"c-98"
+			"xpos"			"c112"
+			"ypos"			"c-118"
 			"zpos"			"100"
 			"wide"			"20"
 			"tall"			"20"
@@ -1016,7 +1016,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextItemButton"
-		"xpos"			"c165"
+		"xpos"			"c161"
 		"ypos"			"70"
 		"zpos"			"100"
 		"wide"			"100"
@@ -1027,7 +1027,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_CollectionCrafting_NextItem"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1203,7 +1203,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1378,7 +1378,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1556,7 +1556,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1733,7 +1733,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"TextColor"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{

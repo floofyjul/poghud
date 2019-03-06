@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"font"			"HudFontMediumBold"
+		"font"			"CodeBold22"
 		"labelText"		"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -33,17 +33,17 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DescText"
-		"font"			"HudFontSmall"
+		"font"			"CodeLC12"
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
-		"ypos"			"33"
+		"ypos"			"r60"
 		"zpos"			"10"
 		"wide"			"f20"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Orange"
+		"fgcolor_override" "White"
 		"proportionaltoparent"	"1"
 	}
 
@@ -56,8 +56,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 	}
 
 	"Shade"
@@ -86,8 +86,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
 		{
@@ -133,8 +133,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
 		{
@@ -180,8 +180,8 @@
 		"tall"			"150"
 		"proportionaltoparent"	"1"
 		"visible"		"0"
-		"border"		"DarkComboboxBorder"
-		"bgcolor_override"	"TanDarker"
+		"border"		"WhiteBorder"
+		"bgcolor_override"	"DarkerGrey"
 
 		"CTFLogoPanel"
 		{
@@ -233,7 +233,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
 		"xpos"			"rs1-50"
-		"ypos"			"rs1-10"
+		"ypos"			"rs1-15"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
@@ -243,7 +243,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -265,7 +265,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
 		"xpos"			"50"
-		"ypos"			"rs1-10"
+		"ypos"			"rs1-15"
 		"zpos"			"20"
 		"wide"			"140"
 		"tall"			"25"
@@ -276,7 +276,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_QuestView_RedeemReward"
-		"font"			"EconFontSmall"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

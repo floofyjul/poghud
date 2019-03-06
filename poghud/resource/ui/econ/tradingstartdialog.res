@@ -9,10 +9,10 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
+		"border"				"WhiteBorder"
 		
 		"button_kv"
 		{
@@ -20,7 +20,7 @@
 			"ypos"			"0"
 			"wide"			"350"
 			"tall"			"30"
-				
+			
 			"button"
 			{
 				"xpos"			"0"
@@ -57,7 +57,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"HudTimerProgressInActive"
 			}
 		}
 	}
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"CodeBold22"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -78,7 +78,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	
 	"PlayerListScroller"
@@ -90,7 +90,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"TextColor"
 		"bgcolor_override"	"0 0 0 64"
 		
 		"PlayerList"
@@ -104,7 +104,7 @@
 			"visible"		"1"
 		}
 	}
-
+	
 	"StatePanel0"
 	{
 		"ControlName"			"EditablePanel"
@@ -116,12 +116,12 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold12"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -133,9 +133,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
-
+			"fgcolor_override" "HudOffWhite"
+		}
+		
 		"subbutton0"
 		{
 			"ControlName"	"CExButton"
@@ -144,14 +144,14 @@
 			"ypos"			"50"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectFriends"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -159,6 +159,8 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 		"subbutton1"
 		{
@@ -168,14 +170,14 @@
 			"ypos"			"90"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectServer"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -183,6 +185,8 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 		"subbutton2"
 		{
@@ -192,14 +196,14 @@
 			"ypos"			"130"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_SelectProfile"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -207,8 +211,11 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	}
+	
 	"StatePanel1"
 	{
 		"ControlName"			"EditablePanel"
@@ -220,7 +227,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -236,8 +243,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -257,9 +264,10 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 	}
+	
 	"StatePanel2"
 	{
 		"ControlName"			"EditablePanel"
@@ -271,7 +279,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -288,8 +296,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"EmptyPlayerListLabel"
 		{
@@ -309,9 +317,10 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 	}
+	
 	"StatePanel3"
 	{
 		"ControlName"			"EditablePanel"
@@ -323,7 +332,7 @@
 		"wide"	 				"400"
 		"tall"	 				"180"
 		"PaintBackgroundType"	"2"
-	
+		
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -340,8 +349,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
-		}	
+			"fgcolor_override" "HudOffWhite"
+		}
 		
 		"URLHelpLabel"
 		{
@@ -361,8 +370,8 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "117 107 94 255"
-		}	
+			"fgcolor_override" "White"
+		}
 		
 		"URLFailLabel"
 		{
@@ -382,7 +391,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "LightRed"
 		}	
 		"URLSearchingLabel"
 		{
@@ -402,8 +411,8 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
-		}	
+			"fgcolor_override" "LightRed"
+		}
 		
 		"URLEntry"
 		{
@@ -424,7 +433,7 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 60"
 			"paintbackgroundtype" "2"
 			"labelText"			""
@@ -440,14 +449,14 @@
 			"ypos"			"150"
 			"zpos"			"1"
 			"wide"			"200"
-			"tall"			"25"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_TradeStartDialog_ProfileGo"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -455,6 +464,8 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"WhiteBorder"
+			"border_armed"		"WhiteBorder"
 		}
 	}
 	
@@ -466,14 +477,14 @@
 		"ypos"			"250"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -481,5 +492,7 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"WhiteBorder"
+		"border_armed"		"WhiteBorder"
 	}
 }

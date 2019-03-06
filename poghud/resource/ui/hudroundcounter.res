@@ -19,7 +19,7 @@
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"4"
+			"ypos"				"3"
 			"wide"				"6"
 			"tall"				"6"
 			"zpos"				"7"
@@ -29,7 +29,7 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -39,7 +39,7 @@
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"-2"
+			"ypos"				"-3"
 			"wide"				"17"
 			"tall"				"17"
 			"zpos"				"8"
@@ -52,16 +52,65 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-40"
+		"ypos"			"11"
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"14"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"HudBlack"
+		"scaleimage"			"1"
+	}
+	"BlueTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueTeamBackground"
+		"xpos"			"c-40"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"o3.833"
-		"tall"			"35"
-
-		"backgroundtype"		"2"
+		"wide"			"40"
+		"tall"			"9"
 		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
+		"fillcolor"				"Blue"
+		"scaleimage"			"1"
+	}
+	"BlueTeamBackground2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueTeamBackground2"
+		"xpos"			"c-40"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"9"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"DarkBlue"
+		"scaleimage"			"1"
+	}
+	"RedTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedTeamBackground"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"9"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"Red"
+		"scaleimage"			"1"
+	}
+	"RedTeamBackground2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedTeamBackground2"
+		"xpos"			"c0"
+		"ypos"			"2"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"9"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"DarkRed"
 		"scaleimage"			"1"
 	}
 }

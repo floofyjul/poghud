@@ -12,7 +12,6 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
-
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
@@ -29,7 +28,6 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
 	
@@ -37,17 +35,15 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-70"
-			"ypos"			"-35"
+			"xpos"			"35"
+			"ypos"			"-15"
 			"zpos"			"100"
 			"wide"			"330"
 			"tall"			"92"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
 			"matchgroup"	"MatchGroup_Casual_12v12"
-
 			"show_model"	"0"
 			"show_name"		"0"
 		}
@@ -56,7 +52,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
+			"xpos"			"rs1-29"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
@@ -67,7 +63,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"CodeLC10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -77,8 +73,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"169 123 53 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -99,7 +96,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
+			"xpos"			"rs1-9"
 			"ypos"			"49"
 			"zpos"			"100"
 			"wide"			"15"
@@ -110,7 +107,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"font"			"CodeLC10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -120,8 +117,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"169 123 53 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -142,81 +140,61 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-9"
-			"ypos"			"49"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"?"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"Command"		"show_explanations"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"Title"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"47"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
+			"xpos"			"10"
+			"ypos"			"46"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"20"
 			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
-		
+			"labeltext"		""
+			"textAlignment"	"west"
+			"font"			"LightGravity10"
 			"mouseinputenabled"	"0"
 		}
 
 		"SelectedCount"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"10"
-			"ypos"		"33"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
+			"xpos"			"10"
+			"ypos"			"46"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"CodeLC12"
 			"fgcolor_override"	"TanDark"
-		
 			"mouseinputenabled"	"1"
 		}
 
 		"QueueEstimation"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"QueueEstimation"
-			"xpos"		"rs1-5"
-			"ypos"		"18"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
+			"xpos"			"rs1-5"
+			"ypos"			"18"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
-			"visible"	"0"
-		
+			"visible"		"0"
 			"mouseinputenabled"	"0"
 		}
 
@@ -247,14 +225,13 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
-
 			"border"		"MainMenuBGBorder"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs0.7-1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.

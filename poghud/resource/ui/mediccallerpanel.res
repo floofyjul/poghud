@@ -2,7 +2,7 @@
 {
 	"CallerBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CallerBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,11 +12,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hud"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 	}
+	
 	"CallerBurning"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CallerBurning"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -26,11 +27,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_fire"
-		"scaleImage"		"1"	
-	}	
+		"scaleImage"	"1"	
+	}
+	
 	"CallerHealth"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CallerHealth"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -40,11 +42,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_hurt"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 	}
+	
 	"CallerBleeding"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CallerBleeding"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -54,11 +57,12 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_bleed"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 	}
+	
 	"CallerAuto"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"CallerAuto"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -68,8 +72,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_attention"
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 	}
+	
 	"CallerReviveEasy"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -82,8 +87,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_tombstone_noz"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
+	
 	"CallerReviveMedium"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -96,8 +102,9 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_tombstone_1_noz"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
+	
 	"CallerReviveHard"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -110,6 +117,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../effects/speech_mediccall_tombstone_2_noz"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 }

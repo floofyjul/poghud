@@ -36,7 +36,7 @@
 			"wide"			"20"
 			"tall"			"20"
 			"visible"		"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"AutoResize" "0"
@@ -50,7 +50,7 @@
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
 		"xpos"			"c-60"	[$X360]
-		"ypos"			"r28"	[$WIN32]
+		"ypos"			"r27"	[$WIN32]
 		"ypos"			"r48"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
@@ -62,7 +62,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmall"
+		"font"			"CodeBold12"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -80,7 +80,7 @@
 			"visible"	"0"
 		}
 	}	
-			
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -127,7 +127,7 @@
 		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 	
 		"CarriedImage"
 		{
@@ -312,7 +312,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"CodeBold20"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}
@@ -330,7 +330,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"CodeBold20"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -364,7 +364,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"CodeBold20"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}
@@ -382,7 +382,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"HudFontMediumSmallBold"
+				"font"			"CodeBold20"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -687,7 +687,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"Score"
@@ -703,9 +703,9 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"CodeBold27"
+				"font_hidef"	"CodeBold22"
+				"font_lodef"	"CodeBold22"
 				"fgcolor"		"TanLight"		
 				"proportionalToParent"	"1"
 			}	
@@ -723,9 +723,9 @@
 				"enabled"		"1"
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"CodeBold27"
+				"font_hidef"	"CodeBold22"
+				"font_lodef"	"CodeBold22"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -742,7 +742,7 @@
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"Score"
@@ -758,9 +758,9 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"CodeBold27"
+				"font_hidef"	"CodeBold22"
+				"font_lodef"	"CodeBold22"
 				"fgcolor"		"TanLight"	
 				"proportionalToParent"	"1"	
 			}	
@@ -778,9 +778,9 @@
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"HudFontMediumBold"
-				"font_hidef"	"HudFontGiant"
-				"font_lodef"	"HudFontGiant"
+				"font"			"CodeBold27"
+				"font_hidef"	"CodeBold22"
+				"font_lodef"	"CodeBold22"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -797,7 +797,7 @@
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"IntelImage"
@@ -827,7 +827,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				
 				"proportionalToParent"	"1"
 
@@ -863,7 +863,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				"proportionalToParent"	"1"
 			}
 
@@ -897,7 +897,7 @@
 			"tall"				"40"
 			"visible"			"1"
 			"enabled"			"1"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 			"proportionalToParent"	"1"
 
 			"IntelImage"
@@ -927,7 +927,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				
 				"proportionalToParent"	"1"
 
@@ -963,7 +963,7 @@
 				"labelText"		"%intelvalue%"
 				"font"			"HudFontSmallishBold"
 				"fgcolor"		"TanLight"		
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"Transparent"
 				"proportionalToParent"	"1"
 			}
 
@@ -1046,7 +1046,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"HudFontMediumBold"
+			"font"			"CodeBold20"
 			"fgcolor"		"TanLight"		
 			"proportionalToParent"	"1"
 		}
@@ -1064,7 +1064,7 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"HudFontMediumBold"
+			"font"			"CodeBold20"
 			"fgcolor"		"Black"		
 			"proportionalToParent"	"1"
 		}

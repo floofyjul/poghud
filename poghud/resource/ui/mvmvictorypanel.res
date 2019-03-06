@@ -11,28 +11,27 @@
 		"visible"		"1"
 		
 		//"PaintBackgroundType"	"0"
-		//"paintbackground"	"0"
-		//"border"		"MainMenuHighlightBorder"
+		//"paintbackground"		"0"
+		//"border"				"MainMenuHighlightBorder"
 		
 		"StatsBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"SplashBackground"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"530"
-			"tall"			"230"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_black"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SplashBackground"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"530"
+			"tall"				"230"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
+			"fillcolor"			"Grey"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"src_corner_height"		"22"
+			"src_corner_width"		"22"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"	
 		}
 		
 		"HeaderContainer"
@@ -44,20 +43,6 @@
 			"wide"			"530"
 			"tall"			"100"
 			"visible"		"1"
-
-			"HeaderShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"HeaderShadow"
-				"font"			"HudFontMediumBold"
-				"labelText"		"%headershadow%"
-				"textAlignment" "center"
-				"xpos"			"1"
-				"ypos"			"13"
-				"wide"			"530"
-				"tall"			"40"
-				"fgcolor"		"Black"
-			}
 			
 			"HeaderLabel"
 			{
@@ -72,6 +57,24 @@
 				"tall"			"40"
 				"fgcolor"		"Orange"
 			}
+
+			"HeaderShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"HeaderShadow"
+				"font"			"HudFontMediumBold"
+				"labelText"		"%headershadow%"
+				"textAlignment" "center"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"wide"			"530"
+				"tall"			"40"
+				"fgcolor"		"ShadowBlack"
+		
+				"pin_to_sibling"		"HeaderLabel"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
 		}
 	
 		"CreditLabel"
@@ -85,7 +88,7 @@
 			"ypos"			"80"
 			"wide"			"300"
 			"tall"			"40"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 			
 		"CreditContainer"
@@ -122,21 +125,7 @@
 				"ypos"			"0"
 				"wide"			"180"
 				"tall"			"40"
-				"fgcolor"		"tanlight"
-			}
-			
-			"RatingTextShadow"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"RatingTextShadow"
-				"font"			"HudFontGiantBold"
-				"labelText"		"%ratingscore%"
-				"textAlignment" "center"
-				"xpos"			"1"
-				"ypos"			"41"
-				"wide"			"180"
-				"tall"			"50"
-				"fgcolor"		"Black"
+				"fgcolor"		"White"
 			}
 			
 			"RatingText"
@@ -152,8 +141,26 @@
 				"tall"			"50"
 				"fgcolor"		"White"
 			}
-		}
+			
+			"RatingTextShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"RatingTextShadow"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment" "center"
+				"xpos"			"-1"
+				"ypos"			"-1"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"ShadowBlack"
 		
+				"pin_to_sibling"		"RatingText"
+				"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				"pin_to_sibling_corner"	"PIN_TOPLEFT"
+			}
+		}
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"
@@ -169,31 +176,30 @@
 
 	"DoneButton"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"DoneButton"
-		"xpos"			"-8"
-		"ypos"			"10"
-		"zpos"			"100"
-		"wide"			"106"
-		"tall"			"25"
-		"autoResize"	"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#DoneButton"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
+		"ControlName"		"CExImageButton"
+		"fieldName"			"DoneButton"
+		"xpos"				"-8"
+		"ypos"				"10"
+		"zpos"				"100"
+		"wide"				"106"
+		"tall"				"20"
+		"autoResize"		"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"#DoneButton"
+		"font"				"HudFontSmallBold"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"default"			"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
-		"Command"		"done"
+		"image_drawcolor"	"NeutralWhite"
+		"Command"			"done"
 
-		"pin_to_sibling"               "StatsContainer"
-		"pin_corner_to_sibling"        "1"          
-		"pin_to_sibling_corner"        "3" 
+		"pin_to_sibling"			"StatsContainer"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"3" 
 	}
 }

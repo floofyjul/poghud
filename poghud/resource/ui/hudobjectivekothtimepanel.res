@@ -1,175 +1,119 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
-{	
+{
 	"HudKothTimeStatus"
 	{
 		if_match
 		{
-			"zpos"		"5"
+			"zpos"			"5"
 		}
 	}
-
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
-		"xpos_minmode"		"20"
+		"xpos"				"25"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
-		"tall"				"150"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
-
+		
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_lifetime"		"2"
+			"delta_item_font"		"LightGravity14"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
-			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"		"center"
-			"labelText"		"0:00"
-
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"CodeBold22"
+			"fgcolor"				"HUDBlueTeam"
+			"xpos"					"3"
+			"ypos"					"2"
+			"zpos"					"3"
+			"wide"					"100"
+			"tall"					"15"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
+			
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"xpos_minmode"	"15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"10"
+				"font"			"CodeBold14"
+				"xpos"			"13"
+				"ypos"			"9"
+				"tall"			"15"
 				"wide"			"35"
-				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
 			}
-		}	
+		}
 	}
 
 	"RedTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"90"
-		"xpos_minmode"		"70"
+		"xpos"				"75"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
-		"tall"				"150"
+		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
-		"delta_item_x"			"22"
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
-
+		
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_lifetime"		"2"
+			"delta_item_font"		"LightGravity14"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"23"
-			"xpos_minmode"	"39"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
-			"ypos"			"11"
-			"ypos_minmode"	"6"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
+			"font"			"CodeBold22"
+			"fgcolor"		"HUDRedTeam"
+			"xpos"			"3"
+			"ypos"			"2"
 			"zpos"			"3"
-			"wide"			"45"
-			"wide_minmode"	"30"
-			"wide_lodef"	"50"
-			"tall"			"31"
+			"wide"			"100"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
-
+			
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
+				"font"			"CodeBold14"
+				"xpos"			"rs1-13"
+				"ypos"			"9"
 				"wide"			"35"
-				"wide_minmode"	"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+				"tall"			"15"
 			}
-		}	
+		}
 	}
 	
 	"ActiveTimerBG"
@@ -177,16 +121,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"9"
-		"ypos_minmode"		"-4"
-		"zpos"				"1"
-		"wide"				"78"
-		"wide_minmode"		"37"
-		"tall"				"33"
-		"tall_minmode"		"21"
+		"ypos"				"18"
+		"zpos"				"2"
+		"wide"				"50"
+		"tall"				"2"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"fillcolor"			"White"
 	}
 }

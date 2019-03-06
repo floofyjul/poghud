@@ -15,17 +15,17 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 0"
-		"infocus_bgcolor_override"		"46 43 42 0"
-		"outoffocus_bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"				"27 27 27 0"
+		"infocus_bgcolor_override"		"27 27 27 0"
+		"outoffocus_bgcolor_override"	"27 27 27 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"LightGravity24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"				"HudOffWhite"
+		"titlebardisabledfgcolor_override"		"HudOffWhite"
+		"titlebarbgcolor_override"				"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -44,11 +44,40 @@
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
+	"BackgroundHeader2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"1"
@@ -56,9 +85,10 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,22 +98,22 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
+	}
 	
 	"Sheet"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"20"
-		"transition_time" "0"
-		"yoffset"	"14"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"Sheet"
+		"tabxindent"		"80"
+		"tabxdelta"			"10"
+		"tabwidth"			"240"
+		"tabheight"			"20"
+		"transition_time" 	"0"
+		"yoffset"			"14"
 		
 		"HeaderLine"
 		{
@@ -94,22 +124,24 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
+		}
 		
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumSmallBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
-			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"font"				"CodeBold18"
+			"selectedcolor"		"White"
+			"unselectedcolor"	"TanDark"	
+			"defaultBgColor_override"	"DarkGrey"
+			"paintbackground"			"1"
+			"activeborder_override"		"ButtonDepressedBorder"
+			"normalborder_override" 	"ButtonDepressedBorder"
+			"armedBgColor_override"		"37 37 37 255"
+			"selectedBgColor_override"	"DarkGrey"
 		}
 	}
 	
@@ -117,18 +149,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
+		"xpos"			"c-288"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
-		"tall"			"25"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Back"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -136,7 +168,7 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"NotificationsPresentPanel"
 	{

@@ -23,9 +23,9 @@
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"				"HudOffWhite"
+		"titlebardisabledfgcolor_override"		"HudOffWhite"
+		"titlebarbgcolor_override"				"DarkGrey"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -36,7 +36,7 @@
 			"ypos"			"0"
 			"wide"			"580"
 			"tall"			"60"
-		
+			
 			"itempanel"
 			{
 				"ControlName"	"CItemModelPanel"
@@ -47,7 +47,7 @@
 				"tall"			"58"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"TextColor"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				
@@ -76,7 +76,7 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"CodeBold12"
 				"textAlignment"	"north-east"
 				"xpos"			"70"
 				"ypos"			"45"
@@ -99,11 +99,26 @@
 				"zpos"			"5"
 				"wide"			"580"
 				"tall"			"5"
-				"visible"		"1"
-				"enabled"		"1"
+				"visible"		"0"
+				"enabled"		"0"
 				"image"			"loadout_solid_line"
 				"tileImage"		"1"
-			}			
+			}
+			
+			"SeparatorLine2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SeparatorLine2"
+				"xpos"			"0"
+				"ypos"			"58"
+				"zpos"			"5"
+				"wide"			"580"
+				"tall"			"2"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"DullWhite"
+				"tileImage"		"1"
+			}
 			
 			"RemoveButton"
 			{
@@ -113,14 +128,14 @@
 				"ypos"			"17"
 				"zpos"			"5"
 				"wide"			"100"
-				"tall"			"25"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"#Store_Remove"
-				"font"			"HudFontSmallBold"
+				"font"			"CodeBold14"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -128,7 +143,7 @@
 				"Command"		"remove"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}	
+			}
 			
 			"PriceLabel"
 			{
@@ -146,26 +161,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
-			}
-
-			"PreviewItemLabel"
-			{
-				"ControlName"	"Label"
-				"fieldname"		"PreviewItemLabel"
-				"font"			"HudFontSmallest"
-				"textAlignment"	"center"
-				"xpos"			"110"
-				"ypos"			"36"
-				"wide"			"250"
-				"tall"			"15"
-				"zpos"			"15"
-				"autoResize"	"1"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%preview_item%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "DullWhite"
 			}
 		}
 	}
@@ -178,16 +174,47 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"55"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
 		"tileImage"		"1"
-	}				
+	}
+	
+	"BackgroundHeader2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundHeader2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"27 27 27 200"
+		"tileImage"		"1"
+	}
+	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"420"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"loadout_header"
+		"tileImage"		"1"
+	}
+	
+	"BackgroundFooter2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"1"
@@ -195,9 +222,10 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"27 27 27 200"
 		"tileImage"		"1"
-	}				
+	}
+	
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -207,11 +235,11 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
-	}				
+	}
 	
 	"ClientArea"
 	{
@@ -221,7 +249,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"46 43 42 255"
+		"bgcolor_override"	"DarkGrey"
 		
 		"HeaderLine"
 		{
@@ -232,17 +260,17 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
-		}				
+		}
 		
 		"CartItemsLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CartItemsLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"CodeBold20"
 			"labelText"		"%storecart%"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
@@ -265,11 +293,26 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"5"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"tileImage"		"1"
-		}				
+		}
+		
+		"SeparatorLine2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SeparatorLine2"
+			"xpos"			"c-300"
+			"ypos"			"60"
+			"zpos"			"5"
+			"wide"			"580"
+			"tall"			"2"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"DullWhite"
+			"tileImage"		"1"
+		}
 		
 		"EmptyCartLabel"
 		{
@@ -299,20 +342,20 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"51 47 46 255"
+			"fgcolor_override"	"DullWhite"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"bgcolor_override"	"DarkGrey"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
 			{
 				"xpos"			"586"
-				"wide"			"11"
+				"wide"			"4"
 				"tall"			"240"
 				"zpos"			"1000"
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"1"
 				}
 				
 				"nobuttons"		"1"
@@ -368,7 +411,7 @@
 					"fieldName"		"PurchaseFooter"
 					"wide"			"580"
 					"tall"			"110"
-					"bgcolor_override"	"0 0 0 0"	
+					"bgcolor_override"	"Transparent"
 					
 					"EstimatedTotalLabel"
 					{
@@ -387,6 +430,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 					}
+					
 					"WashingtonStateSalesTaxLabel"
 					{
 						"ControlName"	"CExLabel"
@@ -403,8 +447,9 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
+					
 					"TotalSubtextLabelB"
 					{
 						"ControlName"	"CExLabel"
@@ -421,7 +466,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 					
 					"TotalPriceLabel"
@@ -440,13 +485,12 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
-					
 				}
 			}
 		}
-	}	
+	}
 	
 	"CloseButton"
 	{
@@ -463,7 +507,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_ContinueShopping"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -471,7 +515,7 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
 	
 	"CheckoutButton"
 	{
@@ -488,7 +532,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_Checkout"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -497,5 +541,4 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
 }
