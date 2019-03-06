@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"CodeBold22"
+		"font"			"CodeBold32"
 		"fgcolor"		"White"
 		"xpos"			"75"
 		"ypos"			"38"
@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"CodeBold22"
+		"font"			"CodeBold32"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
