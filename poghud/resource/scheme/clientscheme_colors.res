@@ -20,6 +20,7 @@ Scheme
 		"Black"						"17 17 17 255"
 		"Brown"						"49 44 41 255"
 		"ShadowBlack"				"7 7 7 255"
+		"ShadowGrey"				"25 25 25 255"
 		"HudBlack"					"0 0 0 230"
 		"NeonGreen"					"0 225 0 255"
 		"NeonRed"					"200 10 20 255"
@@ -28,7 +29,7 @@ Scheme
 		"NeutralWhite"				"235 226 202 255"
 		//---------------------------------------------
 		// Gameplay
-		"G_Overheal"				"0 170 127 255"		// HP Buff
+		"G_Overheal"				"116 34 178 170"		// HP Buff
 		"G_Heal"					"0 255 127 255"		// HP Healing
 		"G_LowHealthValue"			"190 20 20 255"		// HP Low
 		"G_LowAmmo"					"190 20 20 255"		// Low Ammo
@@ -72,7 +73,7 @@ Scheme
 		"LightOrange"							"188 112 0 128"
 		"GoalOrange"							"255 133 0"
 		"TFOrange"								"145 73 59 255"
-		"Purple"								"137 69 99 255"
+		"Purple"								"116 34 178 255"
 
 		"HalloweenThemeColor2015_Light"			"238 126 17 255"
 		"HalloweenThemeColor2015"				"135 54 16 255"
