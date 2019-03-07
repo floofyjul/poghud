@@ -456,7 +456,7 @@
 		"ypos"	 				"25"
 		"wide"	 				"628"
 		"tall"	 				"468"
-		"MaxDeathNotices" 		"4"
+		"MaxDeathNotices" 		"10"
 		"IconScale"				"0.35"
 		"LineHeight"			"12"
 		"LineSpacing"			"0"

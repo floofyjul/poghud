@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"White"
 	}
 	
@@ -104,8 +104,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"CodeBold50"
-		"fgcolor"		"ShadowBlack"
+		"font"			"Axis50"
+		"fgcolor"		"ShadowGrey"
 		
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"

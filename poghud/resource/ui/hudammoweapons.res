@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"30"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"25 25 25 255"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"CodeBold37"
+		"font"			"Axis37"
 		"fgcolor"		"Purple"
 		"xpos"			"75"
 		"ypos"			"30"
@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"CodeBold37"
+		"font"			"Axis37"
 		"fgcolor"		"25 25 25 255"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"30"
@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -128,7 +128,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"AmmoDivider"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"White"
 		"xpos"			"65"
 		"ypos"			"30"
@@ -144,7 +144,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"AmmoDividerShadow"
-		"font"			"CodeBold50"
+		"font"			"Axis50"
 		"fgcolor"		"ShadowBlack"
 		"xpos"			"-2"
 		"ypos"			"-2"

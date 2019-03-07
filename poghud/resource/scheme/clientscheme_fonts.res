@@ -3,6 +3,28 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
+		"Axis50"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"50"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Axis37"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"37"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CodeBold50"
 		{
 			"1"

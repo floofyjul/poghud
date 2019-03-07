@@ -31,7 +31,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity10"
+		"font"					"CodeBold10"
 	}
 	
 	"ItemEffectMeter"
@@ -70,7 +70,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity20"
+		"font"					"CodeBold20"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -90,7 +90,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"LightGravity20"
+		"font"					"CodeBold20"
 		"fgcolor"				"ShadowBlack"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
