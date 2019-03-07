@@ -25,6 +25,39 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Axis22"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Axis18"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"18"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Axis12"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CodeBold50"
 		{
 			"1"

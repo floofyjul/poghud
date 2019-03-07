@@ -57,7 +57,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A TEAM"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"Axis22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -83,7 +83,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"			"3"		// Blue Team
-		"font"			"CodeBold18"
+		"font"			"Axis18"
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
@@ -138,7 +138,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"			"4"		// Red Team
-		"font"			"CodeBold18"
+		"font"			"Axis18"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -194,7 +194,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -277,7 +277,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 
