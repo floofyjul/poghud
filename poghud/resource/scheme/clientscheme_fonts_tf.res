@@ -25,12 +25,34 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Axis27"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"27"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Axis22"
 		{
 			"1"
 			{
 				"name"			"Axis Extra Bold"
 				"tall"			"22"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Axis20"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -53,6 +75,17 @@ Scheme
 			{
 				"name"			"Axis Extra Bold"
 				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Axis10"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
