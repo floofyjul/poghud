@@ -153,8 +153,8 @@
 			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
 			"fgcolor"		"TextColor"
@@ -1118,7 +1118,7 @@
 
 			"defaultFgColor_override" "White"
 			"armedFgColor_override"   "White"
-			"depressedFgColor_override" "75 125 255 255"
+			"depressedFgColor_override" "75 125 255 0"
 
 			"image_drawcolor"	"0 0 0 175"
 			"image_armedcolor"	"0 0 0 255"
