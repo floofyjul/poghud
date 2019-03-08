@@ -9,7 +9,7 @@
 		"ypos"					"374"
 		"wide"					"75"
 		"tall"					"20"
-		"MeterFG"				"TanLight"
+		"MeterFG"				"Purple"
 		"MeterBG"				"Gray"
 	}
 	
@@ -70,7 +70,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CodeBold20"
+		"font"					"Axis20"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -90,7 +90,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"CodeBold20"
+		"font"					"Axis20"
 		"fgcolor"				"ShadowBlack"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"

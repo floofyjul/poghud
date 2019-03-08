@@ -16,7 +16,7 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"Purple"
 	}
 	"ItemEffectMeterLabel"
 	{
@@ -36,6 +36,6 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"DefaultSmall"
+		"font"				"Axis10"
 	}
 }
