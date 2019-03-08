@@ -31,7 +31,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"DefaultSmall"
+		"font"					"Axis10"
 	}
 
 	"ItemEffectMeter"
@@ -71,7 +71,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"Axis10"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -91,9 +91,9 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
-		"font"					"LightGravity20"
-		"fgcolor"				"ShadowBlack"
+		"font"					"Axis10"
+		"font"					"Axis20"
+		"fgcolor"				"ShadowGrey"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"

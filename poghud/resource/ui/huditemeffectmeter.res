@@ -31,7 +31,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"DefaultSmall"
+		"font"				"Axis10"
 	}
 
 	"ItemEffectMeter"

@@ -69,6 +69,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Axis14"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"14"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"Axis12"
 		{
 			"1"
@@ -2749,7 +2760,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Axis Extra Bold"
 				"tall"			"11"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2760,7 +2771,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Axis Extra Bold"
 				"tall"			"11"
 				"weight"		"500"
 				"blur"			"3"
@@ -2773,7 +2784,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Secondary"
+				"name"			"Axis Extra Bold"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
