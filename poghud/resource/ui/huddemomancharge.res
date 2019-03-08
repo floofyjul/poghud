@@ -38,4 +38,28 @@
 		"brighttext"		"0"
 		"font"				"Axis10"
 	}
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabelShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"8"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_CHARGE"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Axis10"
+		"fgcolor"				"ShadowGrey"
+		
+		"pin_to_sibling"		"ItemEffectMeterLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
 }

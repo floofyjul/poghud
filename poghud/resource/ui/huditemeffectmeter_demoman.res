@@ -91,7 +91,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Axis20"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"ShadowGrey"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
