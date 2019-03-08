@@ -41,7 +41,7 @@
 		"tall"			"25"
 		"labelText"		"SELECT A CLASS"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"Axis22"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override"	"White"
@@ -65,14 +65,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -101,14 +101,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -137,14 +137,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -173,14 +173,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -209,14 +209,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -245,13 +245,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -280,14 +281,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -316,14 +317,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -352,15 +353,15 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -389,14 +390,14 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"LightGravity12"
+		"font"				"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -425,13 +426,13 @@
 		"labelText"		"&E   Edit Loadout"
 		"textAlignment"	"west"
 		"Command"		"openloadout"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -455,14 +456,14 @@
 		"labelText"		"&C  Cancel"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"paintbackground"	"0"
 		
-		"FgColor"					"255 255 255 128"
-		"defaultFgColor_override" 	"255 255 255 128"
+		"FgColor"					"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"White"
+		"selectedFgColor_override" 	"Purple"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -693,7 +694,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -713,7 +714,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -733,7 +734,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -753,7 +754,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -773,7 +774,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -793,7 +794,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -813,7 +814,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -833,7 +834,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -853,7 +854,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"west"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 	
@@ -1127,7 +1128,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Axis10"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
