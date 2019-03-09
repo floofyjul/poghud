@@ -12,7 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"Purple"
 		"tabPosition"	"0"
 	}
 	
@@ -222,7 +222,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 
 		"defaultFgColor_override" 	"255 255 255 128"
 		"armedFgColor_override"		"White"
@@ -298,7 +298,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 	}
 
@@ -319,7 +319,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
+		"font"			"Axis12"
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
@@ -341,8 +341,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
-		"fgcolor"		"ShadowBlack"
+		"font"			"Axis12"
+		"fgcolor"		"ShadowGrey"
 		"centerwrap"	"1"
 		
 		"pin_to_sibling"		"TeamsFullLabel"
