@@ -57,7 +57,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"Axis37"
 		"fgcolor"		"Purple"
-		"xpos"			"75"
+		"xpos"			"80"
 		"ypos"			"30"
 		"zpos"			"7"
 		"wide"			"70"
