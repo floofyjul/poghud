@@ -102,6 +102,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Axis8"
+		{
+			"1"
+			{
+				"name"			"Axis Extra Bold"
+				"tall"			"8"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"CodeBold50"
 		{
 			"1"

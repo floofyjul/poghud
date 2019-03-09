@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"CodeBold22"
+		"font"			"Axis22"
 		"fgcolor"		"White"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"CodeLC10"
+		"font"			"Axis10"
 		"fgcolor"		"White"
 	}	
 	
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"LightGravity10"
+		"font"			"Axis10"
 		"xpos"			"c-170"
 		"ypos"			"c-90"
 		"zpos"			"3"
@@ -129,14 +129,14 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"CodeBold14"
+		"font"			"Axis14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"Purple"
+		"depressedFgColor_override" "Purple"
+		"selectedFgColor_override" 	"Purple"
 	}
 	
 	"MapInfoWatchIntro"
@@ -171,14 +171,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"CodeBold14"
+		"font"			"Axis14"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
-		"armedFgColor_override" 	"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"armedFgColor_override" 	"Purple"
+		"depressedFgColor_override" "Purple"
+		"selectedFgColor_override" 	"Purple"
 	}
 	
 	"MenuBG"

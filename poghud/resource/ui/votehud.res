@@ -41,7 +41,7 @@
 			"textAlignment"		"west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis10"
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 		}
@@ -60,7 +60,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 			"noshortcutsyntax"	"1"
@@ -94,7 +94,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"wrap"				"1"
 			"fgcolor_override"	"DullWhite"
 		}
@@ -113,7 +113,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis10"
 			"fgcolor_override"	"White"
 			"wrap"				"1"
 			"noshortcutsyntax"	"1"
@@ -162,7 +162,7 @@
 			"textAlignment"		"left"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -194,7 +194,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis10"
 			"fgcolor_override"	"White"
 		}
 		
@@ -213,7 +213,7 @@
 			"textAlignment"		"left"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -245,7 +245,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -264,7 +264,7 @@
 			"textAlignment"		"left"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -296,7 +296,7 @@
 			"textAlignment"		"left"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -328,7 +328,7 @@
 			"textAlignment"		"left"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"White"
 		}
 		
@@ -371,7 +371,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"fgcolor_override"	"DullWhite"
 		}
 		
@@ -437,7 +437,7 @@
 			"textAlignment"		"west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis10"
 			"wrap"				"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -456,7 +456,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 		}
@@ -504,7 +504,7 @@
 			"textAlignment"		"west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardSmall"
+			"font"				"Axis10"
 			"wrap"				"1"
 			"fgcolor_override"	"200 30 30 255"
 		}
@@ -523,7 +523,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"font"				"ScoreboardVerySmall"
+			"font"				"Axis8"
 			"wrap"				"1"
 			"fgcolor_override"	"White"
 		}
@@ -547,19 +547,19 @@
 		"bgcolor_override"		"30 30 30 255"
 		"PaintBackground"		"1"
 		
-		"header_font"				"ItemFontNameLarge"
+		"header_font"				"Axis18"
 		"header_fgcolor"			"White"
 		"issue_width"				"180"
-		"issue_font"				"ItemFontNameSmall"
-		"issue_fgcolor"				"TanLight"
-		"issue_fgcolor_disabled"	"TanDark"
+		"issue_font"				"Axis10"
+		"issue_fgcolor"				"Purple"
+		"issue_fgcolor_disabled"	"ShadowGrey"
 		"parameter_width"			"200"
 		
 		"TitleLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TitleLabel"
-			"font"				"CodeBold18"
+			"font"				"Axis18"
 			"labelText"			"#TF_Vote_Title"
 			"textAlignment"		"north"
 			"xpos"				"0"
@@ -611,7 +611,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"ComboLabel"
-			"font"				"CodeLC8"
+			"font"				"Axis8"
 			"labelText"			"%combo_label%"
 			"textAlignment"		"east"
 			"xpos"				"5"
@@ -629,7 +629,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"CodeLC10"
+			"Font"				"Axis10"
 			"xpos"				"85"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -674,7 +674,7 @@
 			"brighttext"		"0"
 			"Command"			"CallVote"
 			"Default"			"0"
-			"font"				"CodeBold12"
+			"font"				"Axis12"
 		}
 		"Button1"
 		{
@@ -695,7 +695,7 @@
 			"brighttext"		"0"
 			"Command"			"Close"
 			"Default"			"0"
-			"font"				"CodeBold12"
+			"font"				"Axis12"
 		}
 	}
 }
