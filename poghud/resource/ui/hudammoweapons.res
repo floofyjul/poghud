@@ -57,7 +57,7 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"Axis37"
 		"fgcolor"		"Purple"
-		"xpos"			"80"
+		"xpos"			"75"
 		"ypos"			"30"
 		"zpos"			"7"
 		"wide"			"70"
@@ -67,7 +67,6 @@
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
 	}
-
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -88,7 +87,7 @@
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
@@ -105,7 +104,6 @@
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
 	}
-
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -123,6 +121,42 @@
 		"labelText"		"%Ammo%"
 		
 		"pin_to_sibling"		"AmmoNoClip"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}
+	"AmmoDivider"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"AmmoDivider"
+		"font"			"Axis50"
+		"fgcolor"		"White"
+		"xpos"			"65"
+		"ypos"			"30"
+		"zpos"			"7"
+		"wide"			"70"
+		"tall"			"42"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"west"
+		"labelText"		"|"
+	}
+		"AmmoDividerShadow"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"AmmoDividerShadow"
+		"font"			"Axis50"
+		"fgcolor"		"ShadowGrey"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"7"
+		"wide"			"70"
+		"tall"			"42"
+		"visible"		"0"
+		"enabled"		"0"
+		"textAlignment"	"west"
+		"labelText"		"|"
+
+		"pin_to_sibling"		"AmmoDivider"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
