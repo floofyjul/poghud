@@ -298,7 +298,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Axis12"
+		"font"			"LightGravity12"
 		"fgcolor"		"White"
 	}
 
@@ -319,7 +319,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Axis12"
+		"font"			"LightGravity12"
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
@@ -341,7 +341,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Axis12"
+		"font"			"LightGravity12"
 		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 		
