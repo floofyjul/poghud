@@ -5,7 +5,7 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
+		"xpos"				"c-56.5"
 		"ypos"				"c120"
 		"wide"				"f0"
 		"tall"				"f0"
@@ -32,6 +32,7 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"Axis8"
+		"fgcolor"		"Purple"
 	}
 
 	"ItemEffectMeter"
