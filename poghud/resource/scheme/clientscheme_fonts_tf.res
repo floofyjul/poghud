@@ -2760,7 +2760,7 @@ Scheme
 			"1"
 			{
 				"name"			"Axis Extra Bold"
-				"tall"			"9"
+				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
