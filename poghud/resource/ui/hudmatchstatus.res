@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"Purple"
+		"fgcolor"		"White"
 
 		if_readymode
 		{
