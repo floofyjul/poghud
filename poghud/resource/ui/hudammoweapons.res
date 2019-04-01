@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"Axis50"
+		"font"			"AMMOFONT50"
 		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"30"
@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"Axis50"
+		"font"			"AMMOFONT50"
 		"fgcolor"		"ShadowGrey"
 		"xpos"			"-2"
 		"ypos"			"-2"
