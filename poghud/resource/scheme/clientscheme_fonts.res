@@ -3,6 +3,39 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
+		"surfaceHPAmmo50"
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		"surfaceAmmo50"
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		"surfaceAmmo36"
+		{
+			"1"
+			{
+				"name"		"SurfaceHPAmmo-Medium"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		"Axis50"
 		{
 			"1"

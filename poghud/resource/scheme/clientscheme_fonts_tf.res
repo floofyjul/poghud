@@ -3,6 +3,39 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
+		"HPFONT50"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		"AMMOFONT50"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"50"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		"AMMOFONT36"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
 		"Axis50"
 		{
 			"1"
@@ -107,7 +140,7 @@ Scheme
 			"1"
 			{
 				"name"			"Axis Extra Bold"
-				"tall"			"10"
+				"tall"			"8"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -400,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Axis Extra Bold"
+				"name"			"Gravity Light"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias" 	"1"
