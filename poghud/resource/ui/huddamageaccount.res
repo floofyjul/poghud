@@ -26,7 +26,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"west"
-		"font"				"CodeBold22"
+		"font"				"Days22"
 		"fgcolor"			"255 255 0 255"
 	}
 	
@@ -43,7 +43,7 @@
 		"enabled"			"1"
 		"labelText"			"%metal%"
 		"textAlignment"		"west"
-		"font"				"CodeBold22"
+		"font"				"Days22"
 		"fgcolor"			"ShadowBlack"
 		
 		"pin_to_sibling"		"DamageAccountValue"

@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"AMMOFONT50"
+		"font"			"Days50"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"30"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"AMMOFONT50"
+		"font"			"Days50"
 		"fgcolor"		"ShadowGrey"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -55,8 +55,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"AMMOFONT36"
-		"fgcolor"		"Purple"
+		"font"			"Days36"
+		"fgcolor"		"White"
 		"xpos"			"80"
 		"ypos"			"30"
 		"zpos"			"7"
@@ -71,7 +71,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"AMMOFONT36"
+		"font"			"Days36"
 		"fgcolor"		"ShadowGrey"
 		"xpos"			"-2"
 		"ypos"			"-2"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"AMMOFONT50"
+		"font"			"Days50"
 		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"30"
@@ -108,7 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"AMMOFONT50"
+		"font"			"Days50"
 		"fgcolor"		"ShadowGrey"
 		"xpos"			"-2"
 		"ypos"			"-2"

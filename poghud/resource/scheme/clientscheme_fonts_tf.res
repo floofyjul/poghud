@@ -3,7 +3,7 @@ Scheme
 	Fonts
 	{
 		// CUSTOM
-		"HPFONT50"
+		"Days50"
 		{
 			"1"
 			{
@@ -14,23 +14,23 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"AMMOFONT50"
-		{
-			"1"
-			{
-				"name"		"Days"
-				"tall"		"50"
-				"additive"	"0"
-				"antialias" 	"1"
-				"outline"	"0"
-			}
-		}
-		"AMMOFONT36"
+		"Days36"
 		{
 			"1"
 			{
 				"name"		"Days"
 				"tall"		"36"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"0"
+			}
+		}
+		"Days22"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"22"
 				"additive"	"0"
 				"antialias" 	"1"
 				"outline"	"0"
