@@ -278,7 +278,7 @@ Scheme
 		"UpgradeDisabledFg"						"64 59 52 255"
 		"UpgradeDisabledBg"						"79 77 68 255"
 
-		"G_Crosshair1Color"		"150 40 255 255" // Crosshair1 color
+		"G_Crosshair1Color"		"255 230 50 255" // Crosshair1 color
 		"G_Crosshair2Color"     "255 255 255 255" // Crosshair2 color
 	}
 }

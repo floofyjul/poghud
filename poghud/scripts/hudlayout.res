@@ -1360,8 +1360,8 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"
 		"zpos"				"3"
-		"wide"				"18" // Crosshair1 size
-		"tall"				"18" // Crosshair1 size
+		"wide"				"20" // Crosshair1 size
+		"tall"				"20" // Crosshair1 size
 		"visible"			"1" // Crosshair1 enabled
 		"enabled"			"1" // Crosshair1 enabled
 		"image"				"replay/thumbnails/xhairs/xhair1"
@@ -1377,8 +1377,8 @@
 		"xpos"				"cs-0.5"
 		"ypos"				"cs-0.5"
 		"zpos"				"2"
-		"wide"				"18" // Crosshair1 size
-		"tall"				"18" // Crosshair1 size
+		"wide"				"20" // Crosshair1 size
+		"tall"				"20" // Crosshair1 size
 		"visible"			"1" // Crosshair1 enabled
 		"enabled"			"1" // Crosshair1 enabled
 		"image"				"replay/thumbnails/xhairs/xhair1"
