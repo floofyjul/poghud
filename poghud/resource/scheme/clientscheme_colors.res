@@ -221,12 +221,12 @@ Scheme
 		"DimmQualityColorPaintkitWeapon"		"250 250 250 100"
 
 		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"255 215 0 100"
-		"ItemRarityUncommon"					"255 215 0 100"
-		"ItemRarityRare"						"255 215 0 100"
-		"ItemRarityMythical"					"255 215 0 100"
-		"ItemRarityLegendary"					"255 215 0 100"
-		"ItemRarityAncient"						"255 215 0 100"
+		"ItemRarityCommon"						"255 215 0 255"
+		"ItemRarityUncommon"					"255 215 0 255"
+		"ItemRarityRare"						"255 215 0 255"
+		"ItemRarityMythical"					"255 215 0 255"
+		"ItemRarityLegendary"					"255 215 0 255"
+		"ItemRarityAncient"						"255 215 0 255"
 
 		"DimmItemRarityDefault"					"131 126 119 100"
 		"DimmItemRarityCommon"					"255 215 0 100"
