@@ -9,8 +9,8 @@
 		"PositiveColor"			"G_Heal"
 		"NegativeColor"			"255 255 0 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"CodeBold20Outline"
-		"delta_item_font_big"	"CodeBold22Outline"
+		"delta_item_font"		"Days20Outline"
+		"delta_item_font_big"	"Days22Outline"
 	}
 	
 	"DamageAccountValue"

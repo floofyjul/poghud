@@ -36,6 +36,28 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		"Days22Outline"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"22"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
+		"Days20Outline"
+		{
+			"1"
+			{
+				"name"		"Days"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" 	"1"
+				"outline"	"1"
+			}
+		}
 		"Axis50"
 		{
 			"1"

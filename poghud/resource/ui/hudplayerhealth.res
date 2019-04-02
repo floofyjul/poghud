@@ -1,22 +1,6 @@
 "Resource/UI/HudPlayerHealth.res"
 {
 	// Player Health Data
-	"Crosshair1"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"Crosshair1"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"zpos"				"255"
-		"wide"				"24" // Crosshair1 size
-		"tall"				"24" // Crosshair1 size
-		"visible"			"1" // Crosshair1 enabled
-		"enabled"			"1" // Crosshair1 enabled
-		"image"				"replay/thumbnails/xhairs/xhair1"
-		"scaleImage"		"1"
-		"drawcolor"			"G_Crosshair1Color"
-		"Alpha"				"0" // Crosshair1 opacity
-	}
 	"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"

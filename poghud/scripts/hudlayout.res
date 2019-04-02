@@ -1353,22 +1353,38 @@
 		"tall"	 		"f0"
 	}
 
-	"Hitmarker"
+	"Crosshair1"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"Hitmarker"
-		"xpos"			"c-4"
-		"ypos"			"c-4"
-		"zpos"			"20"
-		"wide"			"8"
-		"tall"			"8"
-		"enabled"		"1"
-		"visible"		"1"
-		"image"			"replay/thumbnails/hitmarker_red"
-		"scaleImage"	"1"	
-		"Alpha"			"0"
-		"teambg_2"		"replay/thumbnails/hitmarker_red"
-		"teambg_3"		"replay/thumbnails/hitmarker_blue"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair1"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"3"
+		"wide"				"18" // Crosshair1 size
+		"tall"				"18" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/xhairs/xhair1"
+		"scaleImage"		"1"
+		"drawcolor"			"G_Crosshair1Color"
+		"Alpha"				"0" // Crosshair1 opacity
+	}
+
+	"Crosshair2"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"Crosshair2"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"zpos"				"2"
+		"wide"				"18" // Crosshair1 size
+		"tall"				"18" // Crosshair1 size
+		"visible"			"1" // Crosshair1 enabled
+		"enabled"			"1" // Crosshair1 enabled
+		"image"				"replay/thumbnails/xhairs/xhair1"
+		"scaleImage"		"1"
+		"drawcolor"			"G_Crosshair2Color"
+		"Alpha"				"255" // Crosshair1 opacity
 	}
 
 	HudSpectatorExtras
