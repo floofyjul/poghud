@@ -1053,11 +1053,11 @@
 		"xpos"			"c-250"
 		"ypos"			"-80"
 		"zpos"			"-99"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"600"
+		"tall"			"600"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"0"
+		"scaleImage"	"1"
 	}
 	
 	"VersionLabel"
