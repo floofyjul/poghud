@@ -120,15 +120,24 @@ event HudMedicChargedStop
 event HitMarker
 {
 
-	Animate Crosshair1 Alpha "255" 	Linear 0.0 0.0		// CrosshairHitmarker1 start
+	Animate Crosshair1 Alpha "0" 	Linear 0.0 0.0		// CrosshairHitmarker1 start
 	Animate Crosshair1 Alpha "0" 	Linear 0.0 0.950 	// CrosshairHitmarker1 end
 
 
 }
+
+event HitMarkerTc
+{
+
+	Animate	TeamColoredHitmarker	Alpha	"255"	Linear 0.0 0.0		// tcHitmarker start
+	Animate	TeamColoredHitmarker	Alpha	"0"		Linear 0.0 0.95 	// tcHitmarker end
+
+}
+
 event DamagedPlayer
 {
-	StopEvent 	HitMarker 	0.0
-	RunEvent 	HitMarker	0.01
+	StopEvent 	HitMarkerTc 0.0
+	RunEvent 	HitMarkerTc	0.01
 }
 //==================================================================================
 
